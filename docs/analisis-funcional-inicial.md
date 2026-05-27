@@ -174,7 +174,9 @@ El usuario deberá poder buscar aulas, oficinas y sectores relevantes.
 
 ## RF03 – Visualización de recorridos
 
-El sistema deberá mostrar recorridos básicos entre el punto de acceso y el destino seleccionado.
+El sistema deberá mostrar recorridos básicos
+entre un punto de origen seleccionado
+y el destino elegido por el usuario.
 
 ## RF04 – Identificación de accesos accesibles
 
@@ -200,9 +202,11 @@ La plataforma deberá adaptarse correctamente a dispositivos móviles.
 
 El acceso al mapa y navegación principal deberá mantenerse simple y rápida, evitando flujos innecesarios.
 
-## RF10 – Disponibilidad parcial offline
+## RF10 – Disponibilidad offline
 
-Se evaluará la posibilidad de acceso parcial a información previamente cargada sin conexión constante.
+El sistema deberá permitir el acceso a mapas,
+recorridos e información esencial sin depender
+permanentemente de conexión a internet o redes WiFi.
 
 ---
 
