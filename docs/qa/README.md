@@ -159,101 +159,117 @@ Los campos relacionados con la ejecución (`Result`, `Status`, `Evidence` y `Com
 
 La relación entre los requerimientos y los casos de prueba se estructuró mediante:
 
-
-Epic
-  ↓
-Feature
-  ↓
-User Story
-  ↓
-Scenario
-  ↓
-Test Case
-  ↓
-Acceptance Criteria
-  ↓
+Epic  
+↓  
+Feature  
+↓  
+User Story  
+↓  
+Scenario  
+↓  
+Test Case  
+↓  
+Acceptance Criteria  
+↓  
 Expected Result
 
 Este enfoque permite mantener trazabilidad entre las necesidades funcionales del producto y las pruebas diseñadas.
 
-🔄 Enfoque QA temprano / Shift-Left
+---
+
+# 🔄 Enfoque QA temprano / Shift-Left
 
 El trabajo de QA se inició durante una etapa temprana del proyecto, participando en el análisis funcional y en el diseño de pruebas antes de contar con una implementación funcional.
 
-Flujo de trabajo:
+### Flujo de trabajo
 
-Requerimientos
-      ↓
-Análisis Funcional
-      ↓
-User Stories / Acceptance Criteria
-      ↓
-Diseño de escenarios
-      ↓
-Test Case Design
-      ↓
-Mock Data
-      ↓
-Implementación
-      ↓
-Ejecución de pruebas
-      ↓
-Re-testing
-      ↓
+Requerimientos  
+↓  
+Análisis Funcional  
+↓  
+User Stories / Acceptance Criteria  
+↓  
+Diseño de escenarios  
+↓  
+Test Case Design  
+↓  
+Mock Data  
+↓  
+Implementación  
+↓  
+Ejecución de pruebas  
+↓  
+Re-testing  
+↓  
 Automatización progresiva
 
 Este enfoque permite identificar criterios de validación de manera temprana y preparar los escenarios de prueba antes de la implementación.
 
-📊 Cobertura inicial de QA
+---
 
-Los escenarios diseñados contemplan diferentes áreas de validación:
+# 📊 Cobertura inicial de QA
 
-Testing funcional
-búsqueda de espacios
-visualización de recorridos
-fichas descriptivas
-reportes de incidencias
-validaciones de formularios
-Accesibilidad
-recorridos accesibles
-identificación de accesos adaptados
-navegación cognitiva
-compatibilidad con lectores de pantalla
-Responsive / UI
-dispositivos móviles
-tablets
-adaptación de la interfaz
-usabilidad
-Disponibilidad
-funcionamiento offline
-persistencia de información previamente cargada
-🔐 Publicación de artefactos
+Los escenarios diseñados contemplan diferentes áreas de validación.
+
+### Testing funcional
+
+- Búsqueda de espacios
+- Visualización de recorridos
+- Fichas descriptivas
+- Reportes de incidencias
+- Validaciones de formularios
+
+### Accesibilidad
+
+- Recorridos accesibles
+- Identificación de accesos adaptados
+- Navegación cognitiva
+- Compatibilidad con lectores de pantalla
+
+### Responsive / UI
+
+- Dispositivos móviles
+- Tablets
+- Adaptación de la interfaz
+- Usabilidad
+
+### Disponibilidad
+
+- Funcionamiento offline
+- Persistencia de información previamente cargada
+
+---
+
+# 🔐 Publicación de artefactos
 
 Este repositorio contiene una selección de artefactos de QA preparados para portfolio.
 
 No se incluyen:
 
-evidencias reales de ejecución
-capturas de pantalla del proyecto
-reportes internos
-tableros de seguimiento
-comentarios internos
-credenciales
-datos personales
-tokens o información sensible
+- Evidencias reales de ejecución
+- Capturas de pantalla del proyecto
+- Reportes internos
+- Tableros de seguimiento
+- Comentarios internos
+- Credenciales
+- Datos personales
+- Tokens
+- Información sensible
 
 El objetivo de esta publicación es demostrar el proceso de análisis, diseño y planificación de QA sin exponer información interna del proyecto colaborativo.
 
-📌 Evolución
+---
+
+# 📌 Evolución
 
 La documentación representa una implementación inicial y evolutiva de QA.
 
 Los artefactos pueden modificarse según:
 
-nuevos requerimientos
-refinamiento funcional
-cambios en el producto
-nuevos escenarios de prueba
-resultados de ejecución
-decisiones técnicas
-incorporación progresiva de automatización
+- Nuevos requerimientos
+- Refinamiento funcional
+- Cambios en el producto
+- Nuevos escenarios de prueba
+- Resultados de ejecución
+- Decisiones técnicas
+- Incorporación progresiva de automatización
