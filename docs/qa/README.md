@@ -128,3 +128,132 @@ Podrá modificarse según:
 * evolución del MVP
 
 El objetivo principal es facilitar la colaboración interdisciplinaria y construir una base inicial reutilizable para testing manual y automatizado.
+
+---
+
+# 🧪 Diseño de Casos de Prueba
+
+Los casos de prueba fueron diseñados durante una etapa temprana del proyecto, **antes de la disponibilidad de una implementación funcional**, tomando como base los requerimientos, User Stories, escenarios y criterios de aceptación.
+
+El objetivo fue definir anticipadamente qué comportamientos debían ser validados y establecer una estructura preparada para la posterior ejecución y seguimiento de las pruebas.
+
+Los casos contemplan:
+
+- identificación del caso de prueba
+- Epic, Feature y User Story asociada
+- escenario
+- título y descripción
+- prioridad
+- tipo de prueba
+- precondiciones
+- pasos de ejecución
+- resultado esperado
+- resultado de ejecución
+- estado
+- evidencia
+- comentarios
+
+Los campos relacionados con la ejecución (`Result`, `Status`, `Evidence` y `Comments`) forman parte de la estructura preparada para la etapa posterior de ejecución y seguimiento.
+
+## Trazabilidad
+
+La relación entre los requerimientos y los casos de prueba se estructuró mediante:
+
+
+Epic
+  ↓
+Feature
+  ↓
+User Story
+  ↓
+Scenario
+  ↓
+Test Case
+  ↓
+Acceptance Criteria
+  ↓
+Expected Result
+
+Este enfoque permite mantener trazabilidad entre las necesidades funcionales del producto y las pruebas diseñadas.
+
+🔄 Enfoque QA temprano / Shift-Left
+
+El trabajo de QA se inició durante una etapa temprana del proyecto, participando en el análisis funcional y en el diseño de pruebas antes de contar con una implementación funcional.
+
+Flujo de trabajo:
+
+Requerimientos
+      ↓
+Análisis Funcional
+      ↓
+User Stories / Acceptance Criteria
+      ↓
+Diseño de escenarios
+      ↓
+Test Case Design
+      ↓
+Mock Data
+      ↓
+Implementación
+      ↓
+Ejecución de pruebas
+      ↓
+Re-testing
+      ↓
+Automatización progresiva
+
+Este enfoque permite identificar criterios de validación de manera temprana y preparar los escenarios de prueba antes de la implementación.
+
+📊 Cobertura inicial de QA
+
+Los escenarios diseñados contemplan diferentes áreas de validación:
+
+Testing funcional
+búsqueda de espacios
+visualización de recorridos
+fichas descriptivas
+reportes de incidencias
+validaciones de formularios
+Accesibilidad
+recorridos accesibles
+identificación de accesos adaptados
+navegación cognitiva
+compatibilidad con lectores de pantalla
+Responsive / UI
+dispositivos móviles
+tablets
+adaptación de la interfaz
+usabilidad
+Disponibilidad
+funcionamiento offline
+persistencia de información previamente cargada
+🔐 Publicación de artefactos
+
+Este repositorio contiene una selección de artefactos de QA preparados para portfolio.
+
+No se incluyen:
+
+evidencias reales de ejecución
+capturas de pantalla del proyecto
+reportes internos
+tableros de seguimiento
+comentarios internos
+credenciales
+datos personales
+tokens o información sensible
+
+El objetivo de esta publicación es demostrar el proceso de análisis, diseño y planificación de QA sin exponer información interna del proyecto colaborativo.
+
+📌 Evolución
+
+La documentación representa una implementación inicial y evolutiva de QA.
+
+Los artefactos pueden modificarse según:
+
+nuevos requerimientos
+refinamiento funcional
+cambios en el producto
+nuevos escenarios de prueba
+resultados de ejecución
+decisiones técnicas
+incorporación progresiva de automatización
