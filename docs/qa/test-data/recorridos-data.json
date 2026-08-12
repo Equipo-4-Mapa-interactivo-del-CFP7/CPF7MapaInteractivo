@@ -1,0 +1,13 @@
+[
+{
+"origen":"entrada_01",
+"destino":"aula_01",
+"accesible":true
+},
+
+{
+"origen":"entrada_01",
+"destino":"salida_01",
+"accesible":true
+}
+]

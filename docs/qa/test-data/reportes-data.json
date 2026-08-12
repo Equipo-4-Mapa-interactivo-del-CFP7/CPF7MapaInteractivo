@@ -1,0 +1,15 @@
+[
+{
+"id":"reporte_01",
+"tipo":"barrera_accesibilidad",
+"descripcion":"Obstrucción en rampa principal",
+"estado":"pendiente"
+},
+
+{
+"id":"reporte_02",
+"tipo":"orientacion",
+"descripcion":"Señalización confusa",
+"estado":"pendiente"
+}
+]

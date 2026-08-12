@@ -1,0 +1,16 @@
+[
+{
+"busqueda":"Aula 1",
+"resultado":"existe"
+},
+
+{
+"busqueda":"Secretaría y Dirección",
+"resultado":"existe"
+},
+
+{
+"busqueda":"Aula 999",
+"resultado":"sin_resultados"
+}
+]

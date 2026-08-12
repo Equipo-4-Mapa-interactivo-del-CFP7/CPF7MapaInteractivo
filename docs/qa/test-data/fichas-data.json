@@ -1,0 +1,13 @@
+[
+{
+"id":"aula_01",
+"nombre":"Aula 1",
+"accesible":true
+},
+
+{
+"id":"oficina_01",
+"nombre":"Secretaría y Dirección",
+"accesible":true
+}
+]
