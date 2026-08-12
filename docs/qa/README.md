@@ -48,13 +48,27 @@ Ejemplos:
 
 ## Step Definitions
 
-Contiene la implementación técnica asociada a escenarios Gherkin.
+Contiene ejemplos iniciales de implementación técnica asociados a los escenarios definidos en Gherkin.
 
-Objetivo:
+Los archivos utilizan la estructura de `@wdio/cucumber-framework` para representar cómo los pasos definidos en los escenarios pueden vincularse posteriormente con código ejecutable.
 
-* conectar escenarios con automatización
-* permitir evolución hacia WebdriverIO / Cucumber
-* reutilizar pasos comunes
+Actualmente se trata de una implementación inicial de referencia, utilizada para establecer la estructura y relación entre:
+
+Feature / Gherkin  
+↓  
+Step Definition  
+↓  
+Implementación automatizada
+
+Los ejemplos permiten definir una estructura base para una futura automatización utilizando:
+
+- WebdriverIO
+- Cucumber
+- JavaScript
+
+La implementación de los pasos funcionales se encuentra en una etapa inicial. Los ejemplos actuales utilizan acciones simples como `console.log()` para representar el comportamiento esperado.
+
+El objetivo es establecer una base reutilizable para evolucionar posteriormente hacia la automatización de los escenarios definidos en Gherkin.
 
 ---
 
